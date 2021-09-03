@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="9Ga-uX-Pw8">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="9Ga-uX-Pw8" customClass="UIta">
                                 <rect key="frame" x="0.0" y="24.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9Ga-uX-Pw8" id="Amc-Nv-svm">
@@ -35,13 +35,13 @@
                         <barButtonItem key="leftBarButtonItem" id="gkW-C5-XUC">
                             <imageReference key="image" image="trash" catalog="system" symbolScale="large" renderingMode="original"/>
                             <connections>
-                                <action selector="deleteAll:" destination="wFX-Py-AWg" id="9Q5-Zr-bQk"/>
+                                <action selector="deleteAll:" destination="wFX-Py-AWg" id="lYc-IK-KYF"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" style="done" systemItem="add" id="W9u-tL-exV">
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
-                                <action selector="newTask:" destination="wFX-Py-AWg" id="FaV-UE-ZXm"/>
+                                <action selector="newTaskAlert:" destination="wFX-Py-AWg" id="sUl-6J-7p0"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
