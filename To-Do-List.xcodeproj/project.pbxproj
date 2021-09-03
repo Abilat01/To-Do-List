@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		3B28EE7726E27A6100A70D9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B28EE7626E27A6100A70D9B /* AppDelegate.swift */; };
 		3B28EE7926E27A6100A70D9B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B28EE7826E27A6100A70D9B /* SceneDelegate.swift */; };
-		3B28EE7B26E27A6100A70D9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B28EE7A26E27A6100A70D9B /* ViewController.swift */; };
 		3B28EE7E26E27A6100A70D9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B28EE7C26E27A6100A70D9B /* Main.storyboard */; };
 		3B28EE8126E27A6100A70D9B /* To_Do_List.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B28EE7F26E27A6100A70D9B /* To_Do_List.xcdatamodeld */; };
 		3B28EE8326E27A6300A70D9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B28EE8226E27A6300A70D9B /* Assets.xcassets */; };
 		3B28EE8626E27A6300A70D9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B28EE8426E27A6300A70D9B /* LaunchScreen.storyboard */; };
+		3B28EE8E26E2806400A70D9B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B28EE8D26E2806400A70D9B /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3B28EE7326E27A6100A70D9B /* To-Do-List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "To-Do-List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B28EE7626E27A6100A70D9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B28EE7826E27A6100A70D9B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3B28EE7A26E27A6100A70D9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3B28EE7D26E27A6100A70D9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B28EE8026E27A6100A70D9B /* To_Do_List.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = To_Do_List.xcdatamodel; sourceTree = "<group>"; };
 		3B28EE8226E27A6300A70D9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B28EE8526E27A6300A70D9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B28EE8726E27A6300A70D9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B28EE8D26E2806400A70D9B /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +60,8 @@
 			children = (
 				3B28EE7626E27A6100A70D9B /* AppDelegate.swift */,
 				3B28EE7826E27A6100A70D9B /* SceneDelegate.swift */,
-				3B28EE7A26E27A6100A70D9B /* ViewController.swift */,
 				3B28EE7C26E27A6100A70D9B /* Main.storyboard */,
+				3B28EE8D26E2806400A70D9B /* TableViewController.swift */,
 				3B28EE8226E27A6300A70D9B /* Assets.xcassets */,
 				3B28EE8426E27A6300A70D9B /* LaunchScreen.storyboard */,
 				3B28EE8726E27A6300A70D9B /* Info.plist */,
@@ -140,10 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B28EE7B26E27A6100A70D9B /* ViewController.swift in Sources */,
 				3B28EE7726E27A6100A70D9B /* AppDelegate.swift in Sources */,
 				3B28EE7926E27A6100A70D9B /* SceneDelegate.swift in Sources */,
 				3B28EE8126E27A6100A70D9B /* To_Do_List.xcdatamodeld in Sources */,
+				3B28EE8E26E2806400A70D9B /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
